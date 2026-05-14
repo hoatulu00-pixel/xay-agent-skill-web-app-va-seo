@@ -1,21 +1,24 @@
 {
-  "executed_at": "2026-05-15T05:59:33",
-  "source": "atomic skills moi tu .claude/skills/",
+  "executed_at": "2026-05-15T06:13:48",
+  "source": "atomic skills moi - fix v2 (cover image + table + doc_link + status)",
+  "cover_image_url": "https://res.cloudinary.com/dducx7mbt/image/upload/v1778800410/hoaxuan-blog/btvn3/chan-vay-hoa-cover_yhtkby.jpg",
   "publish": {
-    "post_id": 19,
-    "slug": "review-chan-vay-hoa-hoa-xuan-4-mau-dang-mua-cach-phoi-hop-dang-nguoi-3",
-    "web_url": "https://resilient-expression-production-1149.up.railway.app/blog/review-chan-vay-hoa-hoa-xuan-4-mau-dang-mua-cach-phoi-hop-dang-nguoi-3",
-    "api_url": "https://https-githubcom-hoa-xuan-fashion-production.up.railway.app/posts/review-chan-vay-hoa-hoa-xuan-4-mau-dang-mua-cach-phoi-hop-dang-nguoi-3",
+    "post_id": 20,
+    "slug": "review-chan-vay-hoa-hoa-xuan-4-mau-dang-mua-cach-phoi-hop-dang-nguoi-4",
+    "web_url": "https://resilient-expression-production-1149.up.railway.app/blog/review-chan-vay-hoa-hoa-xuan-4-mau-dang-mua-cach-phoi-hop-dang-nguoi-4",
+    "api_url": "https://https-githubcom-hoa-xuan-fashion-production.up.railway.app/posts/review-chan-vay-hoa-hoa-xuan-4-mau-dang-mua-cach-phoi-hop-dang-nguoi-4",
     "title": "Review chân váy hoa Hoa Xuân: 4 mẫu đáng mua + cách phối hợp dáng người",
     "category_id": 5,
-    "word_count": 787
+    "word_count": 787,
+    "cover_url": "https://res.cloudinary.com/dducx7mbt/image/upload/v1778800410/hoaxuan-blog/btvn3/chan-vay-hoa-cover_yhtkby.jpg"
+  },
+  "google_doc": {
+    "doc_id": "1x7xfNwwgS--uOw3BDvzw7YWT2nMESSi93yz8jIMa920",
+    "url": "https://docs.google.com/document/d/1x7xfNwwgS--uOw3BDvzw7YWT2nMESSi93yz8jIMa920/edit"
   },
   "sheet": {
     "sheet_url": "https://docs.google.com/spreadsheets/d/1mz3TRGTb-WoLeH5zN5H6cmj3QG586Kv9STG5mwWNUE4/edit",
-    "stt": 15
-  },
-  "google_doc": {
-    "doc_id": "1W_JB-XgFC-8_ZVhT-kcQe8I7v94Io8XXww6y-P5Smuo",
-    "url": "https://docs.google.com/document/d/1W_JB-XgFC-8_ZVhT-kcQe8I7v94Io8XXww6y-P5Smuo/edit"
+    "stt": 16,
+    "doc_link_in_row": "https://docs.google.com/document/d/1x7xfNwwgS--uOw3BDvzw7YWT2nMESSi93yz8jIMa920/edit"
   }
 }

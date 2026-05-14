@@ -13,6 +13,8 @@ google-credentials.json
 **/.cache/
 **/google_token.json
 **/webapp_token.json
+# Pipeline runtime assets (images downloaded local, canonical = Cloudinary URL)
+**/_pipeline_assets/
 
 # ============ Python ============
 __pycache__/
