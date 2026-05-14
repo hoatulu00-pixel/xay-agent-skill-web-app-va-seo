@@ -9,6 +9,10 @@ service_account*.json
 google-credentials.json
 **/config/settings.json
 .claude/settings.json
+# Cached OAuth tokens — NEVER commit
+**/.cache/
+**/google_token.json
+**/webapp_token.json
 
 # ============ Python ============
 __pycache__/
