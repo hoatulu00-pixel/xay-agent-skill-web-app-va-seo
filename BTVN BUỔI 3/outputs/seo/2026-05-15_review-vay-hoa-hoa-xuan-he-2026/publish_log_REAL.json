@@ -1,0 +1,13 @@
+{
+  "skill": "webapp-blog-publisher (chay that)",
+  "executed_at": "2026-05-15T04:22:20",
+  "input_article": "BTVN BUỔI 3\\outputs\\seo\\2026-05-15_review-vay-hoa-hoa-xuan-he-2026\\article.md",
+  "result": {
+    "post_id": 15,
+    "slug": "review-vay-hoa-hoa-xuan-he-2026-dang-mua-khong",
+    "web_url": "https://resilient-expression-production-1149.up.railway.app/blog/review-vay-hoa-hoa-xuan-he-2026-dang-mua-khong",
+    "blog_url_prefix": "https://resilient-expression-production-1149.up.railway.app/blog",
+    "api_url": "https://https-githubcom-hoa-xuan-fashion-production.up.railway.app/posts/review-vay-hoa-hoa-xuan-he-2026-dang-mua-khong"
+  },
+  "operation": "create"
+}
