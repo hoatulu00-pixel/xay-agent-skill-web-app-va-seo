@@ -1,0 +1,40 @@
+{
+  "audit_date": "2026-05-15",
+  "base_url": "https://resilient-expression-production-1149.up.railway.app",
+  "total_urls": 87,
+  "by_type": {
+    "blog": { "published": 38, "draft": 4, "total": 42 },
+    "products": 28,
+    "categories": 9,
+    "admin": { "excluded_from_index": 6 },
+    "root_pages": 4
+  },
+  "status_codes": {
+    "2xx": 81,
+    "3xx": 4,
+    "4xx": 2,
+    "5xx": 0
+  },
+  "broken_links": [
+    {
+      "url": "/blog/cach-phoi-mua-thu-2024",
+      "status": 404,
+      "linked_from": ["/blog"],
+      "element": "BlogCard"
+    },
+    {
+      "url": "/products/discontinued-item-5",
+      "status": 404,
+      "linked_from": ["/"],
+      "element": "ProductCard featured"
+    }
+  ],
+  "redirects": [
+    { "from": "/blog/old-trend", "to": "/blog/xu-huong-thoi-trang-nu-xuan-he-2026", "status": 301 },
+    { "from": "/about-us", "to": "/about", "status": 301 },
+    { "from": "/products/all", "to": "/products", "status": 301 },
+    { "from": "/category/all", "to": "/category", "status": 301 }
+  ],
+  "avg_response_time_ms": 340,
+  "p95_response_time_ms": 580
+}

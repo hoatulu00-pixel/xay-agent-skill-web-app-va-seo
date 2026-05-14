@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Hoa Xuân Fashion",
+  "alternateName": "Thời Trang Hoa Xuân",
+  "url": "https://resilient-expression-production-1149.up.railway.app",
+  "logo": "https://resilient-expression-production-1149.up.railway.app/logo.png",
+  "description": "Thương hiệu thời trang nữ Việt Nam, target phụ nữ 18-36 tuổi, phong cách trẻ trung năng động.",
+  "sameAs": [
+    "https://www.facebook.com/HoaXuanFashion",
+    "https://www.instagram.com/hoaxuanfashion",
+    "https://www.tiktok.com/@hoaxuanfashion"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "customer service",
+    "email": "support@hoaxuan.com",
+    "areaServed": "VN",
+    "availableLanguage": ["Vietnamese", "English"]
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "VN",
+    "addressLocality": "Hà Nội"
+  }
+}

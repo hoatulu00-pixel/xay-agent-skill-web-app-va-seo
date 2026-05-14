@@ -1,0 +1,27 @@
+Bạn là chuyên gia SEO. Phân tích search intent cho keyword sau và trả về JSON.
+
+KEYWORD: "{topic}"
+RELATED KEYWORDS từ Google autocomplete: {related}
+PEOPLE ALSO ASK: {paa}
+
+Trả về CHÍNH XÁC theo schema JSON:
+{
+  "primary_keyword": "<từ khóa chính, có dấu, dạng user search>",
+  "intent": "<informational | commercial | transactional | navigational>",
+  "search_persona": "<mô tả 1 câu user đang tìm thông tin gì, đang ở giai đoạn awareness/consideration/decision>",
+  "secondary_keywords": ["<3-5 keyword phụ>"],
+  "core_questions": ["<3-5 câu hỏi user thực sự muốn được trả lời>"],
+  "recommended_content_type": "<how_to | listicle | trend_report | styling_guide | product_review | care_guide | behind_scenes>"
+}
+
+Luật chọn content_type:
+- "cách / làm sao / hướng dẫn" → how_to
+- "top X / X mẫu / X kiểu" → listicle
+- "xu hướng / trend / mùa X" → trend_report
+- "phối / kết hợp / với" → styling_guide
+- "review / đánh giá / có tốt" → product_review
+- "giặt / bảo quản / vệ sinh" → care_guide
+- "câu chuyện / behind / Hoa Xuân thương hiệu" → behind_scenes
+- Mặc định fashion blog: styling_guide
+
+KHÔNG xuất bất kỳ text nào ngoài JSON.

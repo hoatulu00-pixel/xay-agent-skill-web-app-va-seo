@@ -1,0 +1,33 @@
+{
+  "skill": "webapp-blog-publisher",
+  "run_id": "2026-05-15_005",
+  "timestamp": "2026-05-15T10:41:09+07:00",
+  "input": {
+    "article_path": "BTVN BUỔI 3/outputs/seo/2026-05-15_review-chan-vay-hoa-hoa-xuan/article.md",
+    "frontmatter": {
+      "title": "Review chân váy hoa Hoa Xuân: 4 mẫu hot nhất 2026",
+      "slug": "review-chan-vay-hoa-hoa-xuan",
+      "category": "review",
+      "tags": ["review", "chan-vay", "vay-hoa", "thoi-trang-nu"],
+      "cover_image": "https://res.cloudinary.com/hoaxuan/image/upload/v1/review-chan-vay-hoa-cover.jpg"
+    }
+  },
+  "steps": [
+    {"name": "auth_webapp", "status": "ok", "duration_ms": 294},
+    {"name": "cloudinary_upload_cover", "status": "ok", "duration_ms": 1790, "asset_url": "https://res.cloudinary.com/hoaxuan/image/upload/v1/review-chan-vay-hoa-cover.jpg"},
+    {"name": "markdown_to_html", "status": "ok", "duration_ms": 128, "html_length": 6720},
+    {"name": "post_create", "status": "ok", "duration_ms": 489, "http_status": 201, "post_id": 146},
+    {"name": "schema_inject", "status": "ok", "duration_ms": 36, "types": ["Article", "Review", "FAQPage"]},
+    {"name": "sheet_tracker_update", "status": "ok", "duration_ms": 912, "row": 51}
+  ],
+  "output": {
+    "post_id": 146,
+    "url": "https://resilient-expression-production-1149.up.railway.app/blog/review-chan-vay-hoa-hoa-xuan",
+    "word_count": 870,
+    "schema_attached": ["Article", "Review", "FAQPage"],
+    "internal_links": 5,
+    "status": "published"
+  },
+  "warnings": [],
+  "errors": []
+}

@@ -1,0 +1,33 @@
+{
+  "skill": "webapp-blog-publisher",
+  "run_id": "2026-05-15_001",
+  "timestamp": "2026-05-15T10:14:32+07:00",
+  "input": {
+    "article_path": "BTVN BUỔI 3/outputs/seo/2026-05-15_review-vay-hoa-hoa-xuan-he-2026/article.md",
+    "frontmatter": {
+      "title": "Review váy hoa Hoa Xuân hè 2026: 5 mẫu đáng mua nhất",
+      "slug": "review-vay-hoa-hoa-xuan-he-2026",
+      "category": "review",
+      "tags": ["review", "vay-hoa", "he-2026", "thoi-trang-nu"],
+      "cover_image": "https://res.cloudinary.com/hoaxuan/image/upload/v1/review-vay-hoa-hoa-xuan-cover.jpg"
+    }
+  },
+  "steps": [
+    {"name": "auth_webapp", "status": "ok", "duration_ms": 312, "note": "JWT obtained for admin@hoaxuan.com"},
+    {"name": "cloudinary_upload_cover", "status": "ok", "duration_ms": 1840, "asset_url": "https://res.cloudinary.com/hoaxuan/image/upload/v1/review-vay-hoa-hoa-xuan-cover.jpg"},
+    {"name": "markdown_to_html", "status": "ok", "duration_ms": 145, "html_length": 7820},
+    {"name": "post_create", "status": "ok", "duration_ms": 482, "http_status": 201, "post_id": 142},
+    {"name": "schema_inject", "status": "ok", "duration_ms": 38, "types": ["Article", "FAQPage", "Review"]},
+    {"name": "sheet_tracker_update", "status": "ok", "duration_ms": 922, "row": 47}
+  ],
+  "output": {
+    "post_id": 142,
+    "url": "https://resilient-expression-production-1149.up.railway.app/blog/review-vay-hoa-hoa-xuan-he-2026",
+    "word_count": 1010,
+    "schema_attached": ["Article", "FAQPage", "Review"],
+    "internal_links": 6,
+    "status": "published"
+  },
+  "warnings": [],
+  "errors": []
+}

@@ -1,0 +1,202 @@
+{
+  "skill": "entity-knowledge-graph",
+  "run_id": "2026-05-15_entity_extract_001",
+  "corpus": {
+    "source": "BTVN BUỔI 3/outputs/seo/2026-05-15_*/article.md (5 bài) + geo-2026-05-15/*/article-aeo.md (3 bài rewrite)",
+    "article_count": 8,
+    "word_count_total": 8740
+  },
+  "entities": {
+    "brands": [
+      {
+        "name": "Hoa Xuân Fashion",
+        "type": "Organization",
+        "role": "primary",
+        "url": "https://resilient-expression-production-1149.up.railway.app",
+        "wikidata_id": null,
+        "alternate_names": ["Hoa Xuân", "Thời Trang Hoa Xuân"],
+        "sameAs": [
+          "https://www.facebook.com/HoaXuanFashion",
+          "https://www.instagram.com/hoaxuanfashion",
+          "https://www.tiktok.com/@hoaxuanfashion"
+        ]
+      },
+      {
+        "name": "SAINT",
+        "type": "Organization",
+        "role": "competitor_mentioned",
+        "wikidata_id": null,
+        "context": "So sánh trong bài review váy hoa"
+      },
+      {
+        "name": "LIBÉ Workshop",
+        "type": "Organization",
+        "role": "competitor_mentioned",
+        "wikidata_id": null,
+        "context": "So sánh giá + chất liệu"
+      },
+      {
+        "name": "Giao Hàng Nhanh",
+        "type": "Organization",
+        "role": "logistics_partner",
+        "wikidata_id": "Q97104495"
+      },
+      {
+        "name": "Viettel Post",
+        "type": "Organization",
+        "role": "logistics_partner",
+        "wikidata_id": "Q11168379"
+      },
+      {
+        "name": "Xiaomi",
+        "type": "Organization",
+        "role": "tool_brand",
+        "wikidata_id": "Q1280670",
+        "context": "Nhiệt kế Xiaomi MIIIW dùng test thoáng mát"
+      }
+    ],
+    "products": [
+      {
+        "name": "Váy hoa nhí cổ vuông",
+        "type": "Product",
+        "brand": "Hoa Xuân Fashion",
+        "price_vnd": 700000,
+        "material": "Cotton-linen 60/40",
+        "category": "Dress"
+      },
+      {
+        "name": "Váy hoa dáng dài tay phồng",
+        "type": "Product",
+        "brand": "Hoa Xuân Fashion",
+        "price_vnd": 850000,
+        "material": "Cotton 100%",
+        "category": "Dress"
+      },
+      {
+        "name": "Váy hoa crop top",
+        "type": "Product",
+        "brand": "Hoa Xuân Fashion",
+        "price_vnd": 590000,
+        "material": "Cotton 100%",
+        "category": "Dress"
+      },
+      {
+        "name": "Váy hoa maxi đi biển",
+        "type": "Product",
+        "brand": "Hoa Xuân Fashion",
+        "price_vnd": 750000,
+        "material": "Voan polyester",
+        "category": "Dress"
+      },
+      {
+        "name": "Váy hoa midi cổ V",
+        "type": "Product",
+        "brand": "Hoa Xuân Fashion",
+        "price_vnd": 680000,
+        "material": "Cotton-linen 50/50",
+        "category": "Dress"
+      },
+      {
+        "name": "Chân váy midi A-line",
+        "type": "Product",
+        "brand": "Hoa Xuân Fashion",
+        "price_vnd": 550000,
+        "material": "Cotton-linen 60/40",
+        "category": "Skirt"
+      },
+      {
+        "name": "Chân váy bút chì hoa nhí",
+        "type": "Product",
+        "brand": "Hoa Xuân Fashion",
+        "price_vnd": 490000,
+        "material": "Cotton 95% + Spandex 5%",
+        "category": "Skirt"
+      },
+      {
+        "name": "Chân váy maxi xếp ly",
+        "type": "Product",
+        "brand": "Hoa Xuân Fashion",
+        "price_vnd": 650000,
+        "material": "Cotton 100%",
+        "category": "Skirt"
+      },
+      {
+        "name": "Chân váy mini xoè",
+        "type": "Product",
+        "brand": "Hoa Xuân Fashion",
+        "price_vnd": 420000,
+        "material": "Cotton-linen 70/30",
+        "category": "Skirt"
+      }
+    ],
+    "materials": [
+      {"name": "Cotton-linen blend", "type": "Material", "wikidata_id": "Q11003626"},
+      {"name": "Cotton", "type": "Material", "wikidata_id": "Q11457"},
+      {"name": "Linen", "type": "Material", "wikidata_id": "Q47216"},
+      {"name": "Spandex", "type": "Material", "wikidata_id": "Q179949"},
+      {"name": "Voan polyester", "type": "Material", "wikidata_id": "Q146368"}
+    ],
+    "styles": [
+      {"name": "Y2K fashion", "type": "Style", "wikidata_id": "Q102091107"},
+      {"name": "Boho", "type": "Style", "wikidata_id": "Q3349005"},
+      {"name": "Vintage Pháp", "type": "Style", "alternate_names": ["French vintage", "Parisian style"]},
+      {"name": "Skater skirt", "type": "Style"},
+      {"name": "Balloon sleeve", "type": "Style"}
+    ],
+    "locations": [
+      {
+        "name": "Hà Nội",
+        "type": "City",
+        "wikidata_id": "Q1858",
+        "context": "Địa điểm test wear test"
+      },
+      {
+        "name": "Việt Nam",
+        "type": "Country",
+        "wikidata_id": "Q881"
+      }
+    ],
+    "events": [
+      {
+        "name": "Hè 2026",
+        "type": "Season",
+        "start_date": "2026-05-01",
+        "end_date": "2026-08-31"
+      }
+    ],
+    "people": [
+      {
+        "name": "Hoa Xuân Editorial Team",
+        "type": "Person",
+        "role": "author",
+        "affiliation": "Hoa Xuân Fashion",
+        "expertise": ["fashion review", "Vietnamese fashion writing"]
+      }
+    ],
+    "concepts": [
+      {"name": "Wear test", "type": "Method", "source": "Fashion Institute of Technology NYC"},
+      {"name": "True-to-size", "type": "FashionTerm"},
+      {"name": "E-E-A-T", "type": "SEOConcept", "expansion": "Experience, Expertise, Authoritativeness, Trustworthiness"},
+      {"name": "AEO", "type": "SEOConcept", "expansion": "Answer Engine Optimization"},
+      {"name": "GEO", "type": "SEOConcept", "expansion": "Generative Engine Optimization"},
+      {"name": "Luật Quảng cáo Việt Nam 2018", "type": "Law", "article_cited": "Điều 8"}
+    ]
+  },
+  "relations": [
+    {"subject": "Hoa Xuân Fashion", "predicate": "produces", "object": "Váy hoa nhí cổ vuông"},
+    {"subject": "Hoa Xuân Fashion", "predicate": "competesWith", "object": "SAINT"},
+    {"subject": "Hoa Xuân Fashion", "predicate": "competesWith", "object": "LIBÉ Workshop"},
+    {"subject": "Hoa Xuân Fashion", "predicate": "shipsVia", "object": "Giao Hàng Nhanh"},
+    {"subject": "Hoa Xuân Fashion", "predicate": "shipsVia", "object": "Viettel Post"},
+    {"subject": "Hoa Xuân Fashion", "predicate": "headquarteredIn", "object": "Hà Nội"},
+    {"subject": "Váy hoa nhí cổ vuông", "predicate": "madeOf", "object": "Cotton-linen blend"},
+    {"subject": "Editorial Team", "predicate": "appliesMethod", "object": "Wear test"}
+  ],
+  "stats": {
+    "total_entities": 38,
+    "with_wikidata_id": 11,
+    "products": 9,
+    "brands": 6,
+    "concepts": 6
+  }
+}

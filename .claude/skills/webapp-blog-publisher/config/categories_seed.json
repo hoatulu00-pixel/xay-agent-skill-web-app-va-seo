@@ -1,0 +1,37 @@
+[
+  {
+    "content_type": "how_to",
+    "name": "Hướng dẫn & Mẹo",
+    "description": "Các hướng dẫn từng bước và mẹo thời trang giúp bạn tự tin diện đẹp mỗi ngày."
+  },
+  {
+    "content_type": "styling_guide",
+    "name": "Phối đồ",
+    "description": "Công thức phối đồ chuẩn xu hướng cho mọi dáng người và phong cách."
+  },
+  {
+    "content_type": "trend_report",
+    "name": "Xu hướng thời trang",
+    "description": "Báo cáo xu hướng thời trang nữ theo mùa, runway và street style."
+  },
+  {
+    "content_type": "product_review",
+    "name": "Review sản phẩm",
+    "description": "Đánh giá thực tế các sản phẩm Hoa Xuân và item must-have."
+  },
+  {
+    "content_type": "care_guide",
+    "name": "Bảo quản & Chăm sóc",
+    "description": "Cách bảo quản trang phục bền đẹp theo từng chất liệu."
+  },
+  {
+    "content_type": "listicle",
+    "name": "Tủ đồ thông minh",
+    "description": "Top những item, kiểu dáng và mẫu mã không thể bỏ qua."
+  },
+  {
+    "content_type": "behind_scenes",
+    "name": "Câu chuyện Hoa Xuân",
+    "description": "Hành trình thương hiệu, cảm hứng thiết kế và những con người đằng sau."
+  }
+]

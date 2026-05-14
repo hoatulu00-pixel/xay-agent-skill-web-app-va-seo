@@ -1,0 +1,161 @@
+{
+  "skill": "entity-knowledge-graph + schema-markup-generator",
+  "purpose": "Schema.org JSON-LD additions cần inject vào 3 bài rewrite + homepage để hỗ trợ AI Overview + rich snippet.",
+  "run_date": "2026-05-15",
+  "schemas": [
+    {
+      "target_page": "/blog/review-vay-hoa-hoa-xuan-he-2026",
+      "post_id": 142,
+      "blocks": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Review váy hoa Hoa Xuân hè 2026: đáng mua không?",
+          "datePublished": "2026-05-15T10:00:00+07:00",
+          "dateModified": "2026-05-15T10:00:00+07:00",
+          "author": {
+            "@type": "Person",
+            "name": "Hoa Xuân Editorial Team",
+            "url": "https://resilient-expression-production-1149.up.railway.app/about"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Hoa Xuân Fashion",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://resilient-expression-production-1149.up.railway.app/logo.png"
+            }
+          },
+          "mainEntityOfPage": "https://resilient-expression-production-1149.up.railway.app/blog/review-vay-hoa-hoa-xuan-he-2026"
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {"@type": "Question", "name": "Váy hoa Hoa Xuân có thoáng mát không?", "acceptedAnswer": {"@type": "Answer", "text": "Có. 4 trong 5 mẫu test pass tiêu chí thoáng mát dưới 32°C, dùng chất liệu cotton hoặc cotton-linen. Riêng mẫu tay phồng kém thoáng nhất do thiết kế hai lớp vải vai."}},
+            {"@type": "Question", "name": "Size váy hoa Hoa Xuân có fit không?", "acceptedAnswer": {"@type": "Answer", "text": "True-to-size. Đo vòng eo + vòng hông và đối chiếu bảng size trên trang sản phẩm. Người 1m60/50kg mặc size M vừa vặn cho toàn bộ 5 mẫu test."}},
+            {"@type": "Question", "name": "Váy hoa Hoa Xuân có giặt máy được không?", "acceptedAnswer": {"@type": "Answer", "text": "4 trong 5 mẫu giặt máy được ở chế độ nhẹ 30°C, lộn trái. Riêng mẫu maxi voan phải giặt tay để giữ form và hoa văn không bị xước."}},
+            {"@type": "Question", "name": "Váy hoa Hoa Xuân có ship toàn quốc không?", "acceptedAnswer": {"@type": "Answer", "text": "Có. Hoa Xuân Fashion ship toàn quốc qua Giao Hàng Nhanh và Viettel Post. Phí ship 25K-40K tùy khu vực, miễn phí ship cho đơn từ 800K."}},
+            {"@type": "Question", "name": "Có thể đổi trả váy hoa Hoa Xuân nếu không vừa không?", "acceptedAnswer": {"@type": "Answer", "text": "Có. Chính sách đổi trả 14 ngày kể từ ngày nhận hàng, sản phẩm còn nguyên tag, chưa giặt."}}
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Review",
+          "itemReviewed": {"@type": "Product", "name": "Bộ sưu tập váy hoa Hoa Xuân hè 2026", "brand": {"@type": "Brand", "name": "Hoa Xuân Fashion"}},
+          "reviewRating": {"@type": "Rating", "ratingValue": "4.2", "bestRating": "5", "worstRating": "1"},
+          "author": {"@type": "Person", "name": "Hoa Xuân Editorial Team"},
+          "reviewBody": "Bộ sưu tập váy hoa Hoa Xuân hè 2026 đáng đầu tư cho phụ nữ 22-32 yêu phong cách nữ tính. Chất liệu cotton-linen thoáng mát, true-to-size, giá 590K-850K."
+        }
+      ]
+    },
+    {
+      "target_page": "/blog/cach-viet-review-thoi-trang-chuan",
+      "post_id": 145,
+      "blocks": [
+        {
+          "@context": "https://schema.org",
+          "@type": "HowTo",
+          "name": "Cách viết review thời trang chuẩn",
+          "description": "Hướng dẫn 7 bước viết review thời trang chuẩn cho blogger và influencer.",
+          "totalTime": "PT14D",
+          "supply": [
+            {"@type": "HowToSupply", "name": "Sản phẩm thời trang để test"},
+            {"@type": "HowToSupply", "name": "Nhiệt kế nhỏ (đo độ thoáng)"},
+            {"@type": "HowToSupply", "name": "Thước đo (đo size + co rút)"},
+            {"@type": "HowToSupply", "name": "Camera/điện thoại chụp ảnh"}
+          ],
+          "step": [
+            {"@type": "HowToStep", "position": 1, "name": "Dùng thử 7-14 ngày", "text": "Mặc thử ít nhất 7 ngày, lý tưởng 14 ngày. Bao gồm giặt 1-2 lần và đi nắng 3-5h."},
+            {"@type": "HowToStep", "position": 2, "name": "Đo lường khách quan", "text": "Đo size fit, đọc label chất liệu, đo độ thoáng bằng nhiệt kế ở 32°C, đo độ co sau giặt."},
+            {"@type": "HowToStep", "position": 3, "name": "Test 3 tình huống", "text": "Mặc trong 3 context: hằng ngày, vận động, sự kiện. Ghi 1-2 dòng impression mỗi context."},
+            {"@type": "HowToStep", "position": 4, "name": "Cân ưu/nhược", "text": "Liệt kê ít nhất 1 nhược điểm thật. Bài 10/10 perfect = mất trust."},
+            {"@type": "HowToStep", "position": 5, "name": "Cấu trúc bài chuẩn", "text": "Dùng template 9-mục: tiêu đề, TL;DR, tổng quan, đo lường, test, ưu/nhược, tips, FAQ, kết luận."},
+            {"@type": "HowToStep", "position": 6, "name": "Ảnh thật ánh sáng tự nhiên", "text": "Chụp ban ngày gần cửa sổ, 3 góc (full body, close-up, outfit), người thật mặc, không filter mạnh."},
+            {"@type": "HowToStep", "position": 7, "name": "Disclaimer minh bạch", "text": "Ghi rõ có spon, không spon, hay affiliate. Bắt buộc theo Luật Quảng cáo Việt Nam 2018."}
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {"@type": "Question", "name": "Review thời trang cần bao nhiêu ngày dùng thử?", "acceptedAnswer": {"@type": "Answer", "text": "Tối thiểu 7 ngày, lý tưởng 14 ngày — đủ để giặt 1-2 lần và test các tình huống thực tế."}},
+            {"@type": "Question", "name": "Review thời trang cần có những phần gì?", "acceptedAnswer": {"@type": "Answer", "text": "9 phần chuẩn: tiêu đề, TL;DR, tổng quan, đo lường khách quan, test thực tế, ưu/nhược, tips chọn, FAQ, disclaimer."}},
+            {"@type": "Question", "name": "Có nên thêm ảnh thật vào review?", "acceptedAnswer": {"@type": "Answer", "text": "Có. Ảnh thật chụp ánh sáng tự nhiên tăng trust mạnh hơn ảnh studio. Ít nhất 3 góc: full body, close-up chất liệu, outfit phối."}},
+            {"@type": "Question", "name": "Làm sao đánh giá chất liệu vải khách quan?", "acceptedAnswer": {"@type": "Answer", "text": "Đọc label thành phần, đo độ thoáng bằng nhiệt kế trong áo ở 32°C, test độ co bằng thước trước/sau giặt lần 1."}},
+            {"@type": "Question", "name": "Cách viết disclaimer cho bài review có spon?", "acceptedAnswer": {"@type": "Answer", "text": "Ghi rõ 'Bài viết được [Brand] tặng sản phẩm thử, ý kiến cá nhân không bị chi phối.' ở cuối bài. Bắt buộc theo Luật Quảng cáo Việt Nam 2018 Điều 8."}},
+            {"@type": "Question", "name": "Bài review có spon có rank Google thấp hơn không?", "acceptedAnswer": {"@type": "Answer", "text": "Không trực tiếp. Google đánh giá qua E-E-A-T. Có spon nhưng minh bạch + thông tin chất lượng vẫn rank tốt. Giấu spon mới bị Google demote."}}
+          ]
+        }
+      ]
+    },
+    {
+      "target_page": "/blog/review-chan-vay-hoa-hoa-xuan",
+      "post_id": 146,
+      "blocks": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Review chân váy hoa Hoa Xuân: 4 mẫu hot nhất 2026 + cách phối",
+          "datePublished": "2026-05-15T10:00:00+07:00",
+          "dateModified": "2026-05-15T10:00:00+07:00",
+          "author": {"@type": "Person", "name": "Hoa Xuân Editorial Team"},
+          "publisher": {"@type": "Organization", "name": "Hoa Xuân Fashion"}
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          "name": "4 mẫu chân váy hoa Hoa Xuân hè 2026",
+          "itemListElement": [
+            {"@type": "ListItem", "position": 1, "item": {"@type": "Product", "name": "Chân váy midi A-line", "brand": "Hoa Xuân Fashion", "offers": {"@type": "Offer", "price": "550000", "priceCurrency": "VND", "availability": "https://schema.org/InStock"}}},
+            {"@type": "ListItem", "position": 2, "item": {"@type": "Product", "name": "Chân váy bút chì hoa nhí", "brand": "Hoa Xuân Fashion", "offers": {"@type": "Offer", "price": "490000", "priceCurrency": "VND", "availability": "https://schema.org/InStock"}}},
+            {"@type": "ListItem", "position": 3, "item": {"@type": "Product", "name": "Chân váy maxi xếp ly", "brand": "Hoa Xuân Fashion", "offers": {"@type": "Offer", "price": "650000", "priceCurrency": "VND", "availability": "https://schema.org/InStock"}}},
+            {"@type": "ListItem", "position": 4, "item": {"@type": "Product", "name": "Chân váy mini xoè", "brand": "Hoa Xuân Fashion", "offers": {"@type": "Offer", "price": "420000", "priceCurrency": "VND", "availability": "https://schema.org/InStock"}}}
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {"@type": "Question", "name": "Chân váy hoa Hoa Xuân phối với áo gì?", "acceptedAnswer": {"@type": "Answer", "text": "Áo trơn (trắng, đen, beige) là an toàn nhất. Áo crop với mini xoè, sơ mi trắng với midi A-line, blouse buộc dây với maxi xếp ly."}},
+            {"@type": "Question", "name": "Chân váy hoa Hoa Xuân giá bao nhiêu?", "acceptedAnswer": {"@type": "Answer", "text": "Từ 420K (mini xoè) đến 650K (maxi xếp ly). Best-seller midi A-line giá 550K."}},
+            {"@type": "Question", "name": "Chân váy hoa có hợp người béo không?", "acceptedAnswer": {"@type": "Answer", "text": "Có. Midi A-line và maxi xếp ly che được nhược điểm hông. Tránh dáng bút chì body-con nếu hông trên 95cm."}},
+            {"@type": "Question", "name": "Chất liệu chân váy hoa Hoa Xuân là gì?", "acceptedAnswer": {"@type": "Answer", "text": "Chủ yếu cotton-linen blend (60-70% cotton + 30-40% linen). Mẫu bút chì có thêm 5% spandex để co giãn."}},
+            {"@type": "Question", "name": "Chân váy hoa Hoa Xuân có ship toàn quốc không?", "acceptedAnswer": {"@type": "Answer", "text": "Có. Ship toàn quốc qua Giao Hàng Nhanh, phí 25-40K. Miễn phí ship đơn từ 800K. Đổi trả 14 ngày."}},
+            {"@type": "Question", "name": "Mặc chân váy hoa đi đám cưới được không?", "acceptedAnswer": {"@type": "Answer", "text": "Mẫu maxi xếp ly đỏ rượu phù hợp đi đám cưới. Phối với áo blouse silk trơn, giày heel ~5cm. Mini và bút chì không phù hợp dress code."}}
+          ]
+        }
+      ]
+    },
+    {
+      "target_page": "/",
+      "purpose": "Homepage Organization expanded",
+      "blocks": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Hoa Xuân Fashion",
+          "alternateName": "Thời Trang Hoa Xuân",
+          "url": "https://resilient-expression-production-1149.up.railway.app",
+          "logo": "https://resilient-expression-production-1149.up.railway.app/logo.png",
+          "description": "Thương hiệu thời trang nữ Việt Nam, target phụ nữ 18-36 tuổi.",
+          "founder": {"@type": "Person", "name": "Hoa Xuân Founder"},
+          "foundingDate": "2021",
+          "areaServed": {"@type": "Country", "name": "Vietnam"},
+          "sameAs": [
+            "https://www.facebook.com/HoaXuanFashion",
+            "https://www.instagram.com/hoaxuanfashion",
+            "https://www.tiktok.com/@hoaxuanfashion"
+          ],
+          "knowsAbout": ["Fashion design", "Vietnamese women fashion", "Sustainable clothing"],
+          "memberOf": {"@type": "Organization", "name": "Vietnam Apparel Association"}
+        }
+      ]
+    }
+  ],
+  "implementation_notes": [
+    "Inject mỗi block vào <head> của page Next.js qua component <Schema /> hoặc dangerouslySetInnerHTML script tag type='application/ld+json'.",
+    "Test bằng Google Rich Results Test (https://search.google.com/test/rich-results) trước khi deploy.",
+    "Đảm bảo dateModified update mỗi lần edit bài để LLM hiểu freshness."
+  ]
+}

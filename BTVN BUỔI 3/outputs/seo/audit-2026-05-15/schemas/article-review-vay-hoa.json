@@ -1,0 +1,80 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Review váy hoa Hoa Xuân hè 2026: đáng mua không?",
+    "image": [
+      "https://res.cloudinary.com/hoaxuan/image/upload/v1/review-vay-hoa-hoa-xuan-cover.jpg"
+    ],
+    "datePublished": "2026-05-15T10:00:00+07:00",
+    "dateModified": "2026-05-15T10:00:00+07:00",
+    "author": {
+      "@type": "Person",
+      "name": "Hoa Xuân Editorial Team",
+      "url": "https://resilient-expression-production-1149.up.railway.app/about"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Hoa Xuân Fashion",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://resilient-expression-production-1149.up.railway.app/logo.png"
+      }
+    },
+    "description": "Review chi tiết 5 mẫu váy hoa Hoa Xuân hè 2026: chất liệu, độ thoáng, size fit. Đánh giá thật từ khách hàng + tips chọn váy hợp dáng.",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://resilient-expression-production-1149.up.railway.app/blog/review-vay-hoa-hoa-xuan-he-2026"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Váy hoa Hoa Xuân có thoáng mát không?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Có. 4/5 mẫu dùng chất cotton hoặc cotton-linen, thoáng mát trong 32°C. Mẫu tay phồng hơi nóng do thiết kế hai lớp."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Size váy hoa Hoa Xuân có fit không?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "True-to-size. Hãy đo vòng eo + vòng hông và so với bảng size trên website. Người 1m60/50kg mặc M vừa."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Váy hoa Hoa Xuân có giặt máy được không?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "4/5 mẫu giặt máy được (chế độ nhẹ 30°C, lộn trái). Mẫu maxi voan phải giặt tay để giữ form và hoa văn."
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "itemReviewed": {
+      "@type": "Product",
+      "name": "Bộ sưu tập váy hoa Hoa Xuân hè 2026",
+      "brand": { "@type": "Brand", "name": "Hoa Xuân Fashion" }
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "4.2",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Hoa Xuân Editorial Team"
+    },
+    "reviewBody": "Bộ sưu tập váy hoa Hoa Xuân hè 2026 đáng đầu tư cho phụ nữ 22-32 yêu phong cách nữ tính. Chất liệu cotton-linen thoáng mát, true-to-size, giá 590K-850K."
+  }
+]

@@ -1,0 +1,22 @@
+Bạn là content strategist. Sinh outline chi tiết theo template + brief sau.
+
+TEMPLATE (dạng bài):
+{template_content}
+
+BRIEF:
+- Primary keyword: {primary_keyword}
+- Secondary keywords: {secondary_keywords}
+- Search intent: {intent}
+- Persona: {persona}
+- Core questions: {core_questions}
+- Target word count: {word_count}
+
+YÊU CẦU OUTLINE:
+1. Title ≤60 ký tự, có primary_keyword ở đầu, hấp dẫn
+2. TL;DR (40-60 từ) trả lời thẳng câu hỏi chính
+3. Cấu trúc H2/H3 đầy đủ theo template, fill cụ thể (không để placeholder {{...}})
+4. Mỗi H2 phải có 1 câu mô tả ngắn nội dung sẽ viết
+5. FAQ section dùng đúng các "core_questions" từ brief
+6. Internal link đề xuất (1-2 link sang category page)
+
+Trả về Markdown outline (không kèm explain). KHÔNG viết content full, chỉ outline.

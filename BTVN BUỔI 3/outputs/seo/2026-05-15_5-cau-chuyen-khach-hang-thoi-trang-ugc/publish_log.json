@@ -1,0 +1,33 @@
+{
+  "skill": "webapp-blog-publisher",
+  "run_id": "2026-05-15_002",
+  "timestamp": "2026-05-15T10:21:08+07:00",
+  "input": {
+    "article_path": "BTVN BUỔI 3/outputs/seo/2026-05-15_5-cau-chuyen-khach-hang-thoi-trang-ugc/article.md",
+    "frontmatter": {
+      "title": "5 câu chuyện khách hàng Hoa Xuân: UGC thời trang truyền cảm hứng",
+      "slug": "5-cau-chuyen-khach-hang-thoi-trang-ugc",
+      "category": "story",
+      "tags": ["ugc", "khach-hang", "cau-chuyen", "thoi-trang-nu"],
+      "cover_image": "https://res.cloudinary.com/hoaxuan/image/upload/v1/ugc-stories-cover.jpg"
+    }
+  },
+  "steps": [
+    {"name": "auth_webapp", "status": "ok", "duration_ms": 298},
+    {"name": "cloudinary_upload_cover", "status": "ok", "duration_ms": 1620, "asset_url": "https://res.cloudinary.com/hoaxuan/image/upload/v1/ugc-stories-cover.jpg"},
+    {"name": "markdown_to_html", "status": "ok", "duration_ms": 122, "html_length": 6850},
+    {"name": "post_create", "status": "ok", "duration_ms": 466, "http_status": 201, "post_id": 143},
+    {"name": "schema_inject", "status": "ok", "duration_ms": 32, "types": ["Article", "BreadcrumbList"]},
+    {"name": "sheet_tracker_update", "status": "ok", "duration_ms": 890, "row": 48}
+  ],
+  "output": {
+    "post_id": 143,
+    "url": "https://resilient-expression-production-1149.up.railway.app/blog/5-cau-chuyen-khach-hang-thoi-trang-ugc",
+    "word_count": 880,
+    "schema_attached": ["Article", "BreadcrumbList"],
+    "internal_links": 4,
+    "status": "published"
+  },
+  "warnings": [],
+  "errors": []
+}

@@ -1,0 +1,33 @@
+{
+  "skill": "webapp-blog-publisher",
+  "run_id": "2026-05-15_004",
+  "timestamp": "2026-05-15T10:34:22+07:00",
+  "input": {
+    "article_path": "BTVN BUỔI 3/outputs/seo/2026-05-15_cach-viet-review-thoi-trang-chuan/article.md",
+    "frontmatter": {
+      "title": "Cách viết review thời trang chuẩn: hướng dẫn 7 bước cho người mới",
+      "slug": "cach-viet-review-thoi-trang-chuan",
+      "category": "how-to",
+      "tags": ["how-to", "viet-review", "huong-dan", "thoi-trang"],
+      "cover_image": "https://res.cloudinary.com/hoaxuan/image/upload/v1/how-to-write-fashion-review.jpg"
+    }
+  },
+  "steps": [
+    {"name": "auth_webapp", "status": "ok", "duration_ms": 287},
+    {"name": "cloudinary_upload_cover", "status": "ok", "duration_ms": 1720, "asset_url": "https://res.cloudinary.com/hoaxuan/image/upload/v1/how-to-write-fashion-review.jpg"},
+    {"name": "markdown_to_html", "status": "ok", "duration_ms": 132, "html_length": 7340},
+    {"name": "post_create", "status": "ok", "duration_ms": 478, "http_status": 201, "post_id": 145},
+    {"name": "schema_inject", "status": "ok", "duration_ms": 42, "types": ["Article", "HowTo", "FAQPage"]},
+    {"name": "sheet_tracker_update", "status": "ok", "duration_ms": 870, "row": 50}
+  ],
+  "output": {
+    "post_id": 145,
+    "url": "https://resilient-expression-production-1149.up.railway.app/blog/cach-viet-review-thoi-trang-chuan",
+    "word_count": 980,
+    "schema_attached": ["Article", "HowTo", "FAQPage"],
+    "internal_links": 7,
+    "status": "published"
+  },
+  "warnings": [],
+  "errors": []
+}

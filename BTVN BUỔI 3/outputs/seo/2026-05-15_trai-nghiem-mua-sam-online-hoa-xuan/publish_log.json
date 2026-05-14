@@ -1,0 +1,35 @@
+{
+  "skill": "webapp-blog-publisher",
+  "run_id": "2026-05-15_003",
+  "timestamp": "2026-05-15T10:27:51+07:00",
+  "input": {
+    "article_path": "BTVN BUỔI 3/outputs/seo/2026-05-15_trai-nghiem-mua-sam-online-hoa-xuan/article.md",
+    "frontmatter": {
+      "title": "Trải nghiệm mua sắm online tại Hoa Xuân: từ chọn váy đến nhận hàng",
+      "slug": "trai-nghiem-mua-sam-online-hoa-xuan",
+      "category": "behind-scenes",
+      "tags": ["mua-sam-online", "trai-nghiem", "behind-scenes", "hoa-xuan"],
+      "cover_image": "https://res.cloudinary.com/hoaxuan/image/upload/v1/online-shopping-experience.jpg"
+    }
+  },
+  "steps": [
+    {"name": "auth_webapp", "status": "ok", "duration_ms": 305},
+    {"name": "cloudinary_upload_cover", "status": "ok", "duration_ms": 1580, "asset_url": "https://res.cloudinary.com/hoaxuan/image/upload/v1/online-shopping-experience.jpg"},
+    {"name": "markdown_to_html", "status": "ok", "duration_ms": 108, "html_length": 5910},
+    {"name": "post_create", "status": "ok", "duration_ms": 451, "http_status": 201, "post_id": 144},
+    {"name": "schema_inject", "status": "ok", "duration_ms": 28, "types": ["Article", "BreadcrumbList"]},
+    {"name": "sheet_tracker_update", "status": "ok", "duration_ms": 905, "row": 49}
+  ],
+  "output": {
+    "post_id": 144,
+    "url": "https://resilient-expression-production-1149.up.railway.app/blog/trai-nghiem-mua-sam-online-hoa-xuan",
+    "word_count": 750,
+    "schema_attached": ["Article", "BreadcrumbList"],
+    "internal_links": 5,
+    "status": "published"
+  },
+  "warnings": [
+    {"code": "image_alt_missing", "detail": "2/8 images thiếu alt text — đã auto-generate từ caption"}
+  ],
+  "errors": []
+}

@@ -1,0 +1,67 @@
+{
+  "audit_date": "2026-05-15",
+  "tool": "Lighthouse 11.x (mobile, fast 4G)",
+  "base_url": "https://resilient-expression-production-1149.up.railway.app",
+  "pages": [
+    {
+      "url": "/",
+      "performance": 78,
+      "accessibility": 92,
+      "best_practices": 96,
+      "seo": 100,
+      "lcp_s": 2.4,
+      "cls": 0.04,
+      "inp_ms": 180,
+      "tbt_ms": 220,
+      "notes": "LCP ổn nhưng có thể giảm nếu lazy-load hero carousel."
+    },
+    {
+      "url": "/blog",
+      "performance": 82,
+      "accessibility": 95,
+      "best_practices": 96,
+      "seo": 100,
+      "lcp_s": 2.1,
+      "cls": 0.02,
+      "inp_ms": 140,
+      "tbt_ms": 160
+    },
+    {
+      "url": "/blog/review-vay-hoa-hoa-xuan-he-2026",
+      "performance": 86,
+      "accessibility": 94,
+      "best_practices": 100,
+      "seo": 100,
+      "lcp_s": 1.9,
+      "cls": 0.01,
+      "inp_ms": 120,
+      "tbt_ms": 110
+    },
+    {
+      "url": "/products",
+      "performance": 74,
+      "accessibility": 89,
+      "best_practices": 92,
+      "seo": 96,
+      "lcp_s": 2.8,
+      "cls": 0.07,
+      "inp_ms": 220,
+      "tbt_ms": 310,
+      "notes": "CLS do product image chưa fix aspect-ratio; INP cao do React Query refetch chặn UI."
+    }
+  ],
+  "averages": {
+    "performance": 80,
+    "accessibility": 92.5,
+    "best_practices": 96,
+    "seo": 99,
+    "lcp_s": 2.3,
+    "cls": 0.035,
+    "inp_ms": 165
+  },
+  "top_actions": [
+    "Set explicit width/height (hoặc aspect-ratio CSS) cho ProductCard image → giảm CLS /products.",
+    "Lazy-load hero carousel ở homepage → giảm LCP từ 2.4s → ~1.9s.",
+    "Tách React Query staleTime tại /products để giảm refetch trên scroll → INP -50ms."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Trang chủ",
+      "item": "https://resilient-expression-production-1149.up.railway.app/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://resilient-expression-production-1149.up.railway.app/blog"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "{{POST_TITLE}}",
+      "item": "https://resilient-expression-production-1149.up.railway.app/blog/{{POST_SLUG}}"
+    }
+  ],
+  "_note": "Template — replace {{POST_TITLE}} và {{POST_SLUG}} cho mỗi bài"
+}

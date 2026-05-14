@@ -1,0 +1,31 @@
+{
+  "oauth_client_secret_path": "C:/Users/yingt/.claude/secrets/hoa-xuan-oauth.json",
+  "drive_folder_id": "PASTE_FOLDER_ID_FROM_DRIVE_URL",
+  "tracker_sheet_id": "",
+  "tracker_sheet_url": "",
+
+  "webapp_base_url": "https://https-githubcom-hoa-xuan-fashion-production.up.railway.app",
+  "webapp_email": "admin@hoaxuan.com",
+  "webapp_password": "HoaXuan2024!",
+  "blog_url_prefix": "https://resilient-expression-production-1149.up.railway.app/blog",
+
+  "share_sheet_with_email": "hoatulu00@gmail.com",
+  "pexels_api_key": "PASTE_PEXELS_API_KEY_HERE",
+  "cloudinary_url": "PASTE_CLOUDINARY_URL_HERE",
+
+  "category_map": {
+    "how_to": null,
+    "listicle": null,
+    "trend_report": null,
+    "styling_guide": null,
+    "product_review": null,
+    "care_guide": null,
+    "behind_scenes": null
+  },
+
+  "defaults": {
+    "is_published_on_create": true,
+    "max_retry": 3,
+    "request_timeout_sec": 30
+  }
+}

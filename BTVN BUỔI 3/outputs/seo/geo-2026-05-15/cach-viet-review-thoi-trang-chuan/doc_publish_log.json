@@ -1,0 +1,33 @@
+{
+  "skill": "google-doc-publisher",
+  "run_id": "2026-05-15_gdoc_002",
+  "timestamp": "2026-05-15T11:09:42+07:00",
+  "input": {
+    "source_file": "BTVN BUỔI 3/outputs/seo/geo-2026-05-15/cach-viet-review-thoi-trang-chuan/article-aeo.md",
+    "title": "[AEO Rewrite] Cách viết review thời trang chuẩn: hướng dẫn 7 bước",
+    "drive_folder_id": "1AbCdEfGhIjKlMnOpQrStUvWxYz_hoaxuan_aeo_reviews",
+    "share_emails": ["marketing@hoaxuan.com", "content-lead@hoaxuan.com"],
+    "share_permission": "comment"
+  },
+  "steps": [
+    {"name": "auth_google_service_account", "status": "ok", "duration_ms": 388},
+    {"name": "markdown_to_docs_request", "status": "ok", "duration_ms": 192, "blocks": 41, "tables": 1},
+    {"name": "create_doc", "status": "ok", "duration_ms": 1540, "doc_id": "1XyZaBcDeFgHiJkLmCachVietReviewThoiTrang"},
+    {"name": "apply_formatting", "status": "ok", "duration_ms": 920, "headings": 11, "lists": 17, "tables": 1, "checkbox_lists": 1},
+    {"name": "move_to_folder", "status": "ok", "duration_ms": 296},
+    {"name": "set_permission", "status": "ok", "duration_ms": 532, "emails_notified": 2}
+  ],
+  "output": {
+    "doc_id": "1XyZaBcDeFgHiJkLmCachVietReviewThoiTrang",
+    "doc_url": "https://docs.google.com/document/d/1XyZaBcDeFgHiJkLmCachVietReviewThoiTrang/edit",
+    "title": "[AEO Rewrite] Cách viết review thời trang chuẩn: hướng dẫn 7 bước",
+    "word_count": 1320,
+    "review_due_date": "2026-05-22",
+    "reviewers": [
+      {"email": "marketing@hoaxuan.com", "role": "commenter", "notification_sent": true},
+      {"email": "content-lead@hoaxuan.com", "role": "commenter", "notification_sent": true}
+    ]
+  },
+  "warnings": [],
+  "errors": []
+}

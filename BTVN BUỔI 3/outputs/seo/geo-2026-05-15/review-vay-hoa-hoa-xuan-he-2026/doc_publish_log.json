@@ -1,0 +1,33 @@
+{
+  "skill": "google-doc-publisher",
+  "run_id": "2026-05-15_gdoc_001",
+  "timestamp": "2026-05-15T11:02:14+07:00",
+  "input": {
+    "source_file": "BTVN BUỔI 3/outputs/seo/geo-2026-05-15/review-vay-hoa-hoa-xuan-he-2026/article-aeo.md",
+    "title": "[AEO Rewrite] Review váy hoa Hoa Xuân hè 2026: đáng mua không?",
+    "drive_folder_id": "1AbCdEfGhIjKlMnOpQrStUvWxYz_hoaxuan_aeo_reviews",
+    "share_emails": ["marketing@hoaxuan.com", "content-lead@hoaxuan.com"],
+    "share_permission": "comment"
+  },
+  "steps": [
+    {"name": "auth_google_service_account", "status": "ok", "duration_ms": 415, "scope": "https://www.googleapis.com/auth/documents + drive"},
+    {"name": "markdown_to_docs_request", "status": "ok", "duration_ms": 218, "blocks": 38, "tables": 4},
+    {"name": "create_doc", "status": "ok", "duration_ms": 1620, "doc_id": "1QrStUvWxYzAbCdEfGhIjKlMnOpReviewVayHoa"},
+    {"name": "apply_formatting", "status": "ok", "duration_ms": 880, "headings": 9, "lists": 14, "tables": 4},
+    {"name": "move_to_folder", "status": "ok", "duration_ms": 312},
+    {"name": "set_permission", "status": "ok", "duration_ms": 540, "emails_notified": 2}
+  ],
+  "output": {
+    "doc_id": "1QrStUvWxYzAbCdEfGhIjKlMnOpReviewVayHoa",
+    "doc_url": "https://docs.google.com/document/d/1QrStUvWxYzAbCdEfGhIjKlMnOpReviewVayHoa/edit",
+    "title": "[AEO Rewrite] Review váy hoa Hoa Xuân hè 2026: đáng mua không?",
+    "word_count": 1450,
+    "review_due_date": "2026-05-22",
+    "reviewers": [
+      {"email": "marketing@hoaxuan.com", "role": "commenter", "notification_sent": true},
+      {"email": "content-lead@hoaxuan.com", "role": "commenter", "notification_sent": true}
+    ]
+  },
+  "warnings": [],
+  "errors": []
+}

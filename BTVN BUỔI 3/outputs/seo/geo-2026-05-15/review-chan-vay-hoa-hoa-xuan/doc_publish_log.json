@@ -1,0 +1,33 @@
+{
+  "skill": "google-doc-publisher",
+  "run_id": "2026-05-15_gdoc_003",
+  "timestamp": "2026-05-15T11:16:25+07:00",
+  "input": {
+    "source_file": "BTVN BUỔI 3/outputs/seo/geo-2026-05-15/review-chan-vay-hoa-hoa-xuan/article-aeo.md",
+    "title": "[AEO Rewrite] Review chân váy hoa Hoa Xuân: 4 mẫu hot nhất 2026",
+    "drive_folder_id": "1AbCdEfGhIjKlMnOpQrStUvWxYz_hoaxuan_aeo_reviews",
+    "share_emails": ["marketing@hoaxuan.com", "content-lead@hoaxuan.com"],
+    "share_permission": "comment"
+  },
+  "steps": [
+    {"name": "auth_google_service_account", "status": "ok", "duration_ms": 402},
+    {"name": "markdown_to_docs_request", "status": "ok", "duration_ms": 205, "blocks": 36, "tables": 4},
+    {"name": "create_doc", "status": "ok", "duration_ms": 1582, "doc_id": "1MnOpQrStUvWxYzAbCdEfGhIjReviewChanVay"},
+    {"name": "apply_formatting", "status": "ok", "duration_ms": 905, "headings": 6, "lists": 12, "tables": 4},
+    {"name": "move_to_folder", "status": "ok", "duration_ms": 304},
+    {"name": "set_permission", "status": "ok", "duration_ms": 548, "emails_notified": 2}
+  ],
+  "output": {
+    "doc_id": "1MnOpQrStUvWxYzAbCdEfGhIjReviewChanVay",
+    "doc_url": "https://docs.google.com/document/d/1MnOpQrStUvWxYzAbCdEfGhIjReviewChanVay/edit",
+    "title": "[AEO Rewrite] Review chân váy hoa Hoa Xuân: 4 mẫu hot nhất 2026",
+    "word_count": 1280,
+    "review_due_date": "2026-05-22",
+    "reviewers": [
+      {"email": "marketing@hoaxuan.com", "role": "commenter", "notification_sent": true},
+      {"email": "content-lead@hoaxuan.com", "role": "commenter", "notification_sent": true}
+    ]
+  },
+  "warnings": [],
+  "errors": []
+}

@@ -1,0 +1,20 @@
+{
+  "topic": "trải nghiệm mua sắm online tại Hoa Xuân Fashion",
+  "primary_keyword": "mua sắm online Hoa Xuân Fashion",
+  "secondary_keywords": [
+    "trải nghiệm mua váy online",
+    "đổi trả Hoa Xuân Fashion",
+    "ship váy hoa giao hàng",
+    "checkout Hoa Xuân Fashion",
+    "size chart Hoa Xuân"
+  ],
+  "questions": [
+    "Mua sắm online tại Hoa Xuân có dễ không?",
+    "Hoa Xuân Fashion ship bao nhiêu ngày?",
+    "Đổi trả tại Hoa Xuân Fashion thế nào?",
+    "Hoa Xuân có check-out nhanh không?",
+    "Có COD ở Hoa Xuân Fashion không?"
+  ],
+  "intent": "informational",
+  "content_type": "behind_scenes"
+}
